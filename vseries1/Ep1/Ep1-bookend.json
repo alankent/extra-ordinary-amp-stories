@@ -1,0 +1,23 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "The End"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Other Content",
+          "url": "https://extra-ordinary.tv/"
+        }
+      ]
+    }
+  ]
+}
