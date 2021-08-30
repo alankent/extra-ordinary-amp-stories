@@ -1,0 +1,88 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Panning</title>
+
+    <link rel="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-story-panning-media" src="https://cdn.ampproject.org/v0/amp-story-panning-media-0.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <style amp-custom>
+      amp-story {
+        font-family: 'Oswald',sans-serif;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #fff;
+      }
+      amp-story-grid-layer {
+        padding: 5px;
+      }
+      .image-fit img {
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Cover page -->
+    <amp-story standalone
+        title="Ubunchu! Vol. 1, Ch. 1"
+        publisher="Hiroshi Seo"
+        poster-portrait-src="image_0000.jgp">
+
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="vertical">
+          <amp-img src="bugs.png" width="360" height="360" layout="responsive" class="image-fit"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1.1">
+        <amp-story-grid-layer>
+          <amp-story-panning-media layout="fill" x="0.5%" y="35%" zoom="4">
+            <amp-img src="forest.jpg" width="141" height="174" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="-50" y="30" zoom=".5">
+            <amp-img src="bugs.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="120" y="40" zoom=".7">
+            <amp-img src="homer.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="10%" y="30%" zoom=".8">
+            <amp-img src="newsdesk.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="30" y="-100" zoom=".5">
+            <amp-img src="i-believe-in-eating-healthy.png" width="334" height="215"></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page1.2">
+        <amp-story-grid-layer>
+          <amp-story-panning-media layout="fill" x="-0.5%" y="35%" zoom="4">
+            <amp-img src="forest.jpg" width="141" height="174" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="-100" y="30" zoom=".5">
+            <amp-img src="bugs.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="50" y="40" zoom=".7">
+            <amp-img src="homer.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="-10%" y="30%" zoom=".8">
+            <amp-img src="newsdesk.png" width="837" height="1083" layout="fill"></amp-img>
+          </amp-story-panning-media>
+          <amp-story-panning-media layout="fill" x="-30" y="-100" zoom=".5">
+            <amp-img src="i-believe-in-eating.png" width="334" height="215"></amp-img>
+          </amp-story-panning-media>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+
+    </amp-story>
+  </body>
+</html>
